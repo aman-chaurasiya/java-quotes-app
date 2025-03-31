@@ -32,7 +32,7 @@ public class Main {
             String quote = getRandomQuote();
 
             // Create a JSON response
-            String jsonResponse = String.format("{\"quote\": \"%s\"}", quote);
+            String jsonResponse = String.format("{\"quote-by Aman chaurasiya\": \"%s\"}", quote);
 
             // Convert the JSON response to bytes
             byte[] responseBytes = jsonResponse.getBytes(StandardCharsets.UTF_8);
